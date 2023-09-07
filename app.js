@@ -1,9 +1,9 @@
 // This is almost entirely Cole Steele's code
 
 function colorize(){
-    const red = Math.floor(Math.random() * 256);
-    const green = Math.floor(Math.random() * 256);
-    const blue = Math.floor(Math.random() * 256);
+    const red = Math.floor(Math.random() * 0);
+    const green = Math.floor(256-(Math.random() * 128)); // light green only
+    const blue = Math.floor(Math.random() * 0);
 
     return `rgb(${red},${green},${blue})`
 }
